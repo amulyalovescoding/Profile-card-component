@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  max-width: 100vw;
+  width: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
+  max-height: 100vh;
+  text-align: center;
+  font-size: 0.6rem;
+  overflow: hidden;
+}
+
+main {
+  margin: 30vh auto;
+  max-width: 280px;
+}
+
+hr {
+  margin: 1rem 0;
+  border-top: 1px;
+  background-color: #fff;
+  color: hsl(0, 0%, 59%);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h1 span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p {
+  color: hsl(227, 10%, 46%);
+  font-weight: 700;
+  padding-top: 0.3rem;
+}
+
+.background-image-top {
+  position: absolute;
+  bottom: 50vh;
+  left: -600px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.profile-pic {
+  width: 80%;
+  margin-top: -48px;
+  border: .25rem solid #fff;
+  border-radius: 100%;
+}
+
+.content-container {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.social-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.image-container img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-pattern-img {
+  width: 100%;
+}
+
+.name {
+  display: inline;
+  margin-bottom: 2rem;
+}
+
+.background-image-bottom {
+  position: absolute;
+  top: 50vh;
+  /* bottom: -650px; */
+  right: -650px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.attribution {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.6875rem;
+  padding: 2.5rem 0 2.5rem 0;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fff;
+}
+
+.attribution a:hover {
+  color: hsl(178, 100%, 50%);
+}
