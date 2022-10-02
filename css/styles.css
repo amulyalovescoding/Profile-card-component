@@ -12,6 +12,9 @@ body {
   text-align: center;
   font-size: 0.6rem;
   overflow: hidden;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 51vw bottom 20vh, left 45vw top 50vh;
 }
 
 main {
@@ -45,14 +48,6 @@ p {
   color: hsl(227, 10%, 46%);
   font-weight: 700;
   padding-top: 0.3rem;
-}
-
-.background-image-top {
-  position: absolute;
-  bottom: 50vh;
-  left: -600px;
-  z-index: -1;
-  overflow: hidden;
 }
 
 .main-container {
@@ -96,15 +91,6 @@ p {
 .name {
   display: inline;
   margin-bottom: 2rem;
-}
-
-.background-image-bottom {
-  position: absolute;
-  top: 50vh;
-  /* bottom: -650px; */
-  right: -650px;
-  z-index: -1;
-  overflow: hidden;
 }
 
 footer {
